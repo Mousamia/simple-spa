@@ -15,11 +15,11 @@ export default function User() {
 
     return (
         <>
-           {
-            users.map(user => <Use user = {user} murgi = {"murgi"} ></Use> )
-           }
+            {
+                users.map(user => <Use user={user} murgi={"murgi"} ></Use>)
+            }
             <h2>Usersssssss</h2>
         </>
-    )                                       
+    )
 }
-{/* <Friend name = {user} ></Friend> */}
+{/* <Friend name = {user} ></Friend> */ }
