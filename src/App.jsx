@@ -2,8 +2,8 @@
 
 import { useState } from 'react'
 import './App.css'
-import User from './User'
 import { useEffect } from 'react';
+import Countries from './Countries';
 
 function App() {
  
@@ -11,8 +11,9 @@ function App() {
     <>
      
       <h1>Simple SPA</h1>
-      {/* <h3>{users.length}</h3> */}
-      <User></User>
+      <Countries></Countries>
+
+     
      
     </>
   )
