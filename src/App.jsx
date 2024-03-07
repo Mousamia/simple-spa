@@ -1,8 +1,6 @@
 /* eslint-disable no-unused-vars */
 
-import { useState } from 'react'
 import './App.css'
-import { useEffect } from 'react';
 import Countries from './Countries';
 
 function App() {
