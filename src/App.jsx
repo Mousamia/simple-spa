@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 
 import './App.css'
-import Countries from './Countries';
 
 function App() {
  
@@ -9,7 +8,6 @@ function App() {
     <>
      
       <h1>Simple SPA</h1>
-      <Countries></Countries>
 
      
      
